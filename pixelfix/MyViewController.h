@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MyViewController.h
 //  pixelfix
 //
 //  Created by Lukas Schauer on 27/09/14.
@@ -8,7 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface MyView : NSView{
+    NSTimer *timer;
+}
 @end
 
-
+double background_round = 1;
+CGFloat red, blue, green, alpha;
