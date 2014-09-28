@@ -12,6 +12,7 @@
 		FD9EC6D919D743FD00078A26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9EC6D819D743FD00078A26 /* Images.xcassets */; };
 		FD9EC6DC19D743FD00078A26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9EC6DA19D743FD00078A26 /* MainMenu.xib */; };
 		FD9EC6E819D743FD00078A26 /* pixelfixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9EC6E719D743FD00078A26 /* pixelfixTests.m */; };
+		FD9EC6F319D7488E00078A26 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9EC6F219D7488E00078A26 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		FD9EC6E119D743FD00078A26 /* pixelfixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pixelfixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9EC6E619D743FD00078A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9EC6E719D743FD00078A26 /* pixelfixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pixelfixTests.m; sourceTree = "<group>"; };
+		FD9EC6F119D7488E00078A26 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FD9EC6F219D7488E00078A26 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				FD9EC6D519D743FD00078A26 /* AppDelegate.h */,
 				FD9EC6D619D743FD00078A26 /* AppDelegate.m */,
+				FD9EC6F119D7488E00078A26 /* MyViewController.h */,
+				FD9EC6F219D7488E00078A26 /* MyViewController.m */,
 				FD9EC6D819D743FD00078A26 /* Images.xcassets */,
 				FD9EC6DA19D743FD00078A26 /* MainMenu.xib */,
 				FD9EC6D119D743FD00078A26 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9EC6F319D7488E00078A26 /* MyViewController.m in Sources */,
 				FD9EC6D719D743FD00078A26 /* AppDelegate.m in Sources */,
 				FD9EC6D419D743FD00078A26 /* main.m in Sources */,
 			);
