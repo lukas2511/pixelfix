@@ -11,3 +11,6 @@
 @interface pixelfixsaverView : ScreenSaverView
 
 @end
+
+double background_round = 1;
+CGFloat red, blue, green, alpha;
